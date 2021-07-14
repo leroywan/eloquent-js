@@ -82,11 +82,12 @@ console.log(nth(arrayToList([10,20,30,40,50,60,70]), 5))
 
 // Deep comparison
 function deepEqual(obj1, obj2) {
-  if (Object.keys(obj1).length !== Object.keys(obj2).length) {
-    return false
-  }
   if (typeof obj1 !== 'object') {
     return obj1 === obj2
+  }
+
+  if (Object.keys(obj1).length !== Object.keys(obj2).length) {
+    return false
   }
 
   for (const key in obj1) {
