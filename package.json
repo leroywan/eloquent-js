@@ -1,0 +1,20 @@
+{
+  "name": "eloquent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "02-program_structure.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leroywan/eloquent-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leroywan/eloquent-js/issues"
+  },
+  "homepage": "https://github.com/leroywan/eloquent-js#readme"
+}
